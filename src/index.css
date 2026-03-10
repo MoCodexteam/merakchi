@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Merakchi Meuble Brand Colors - Light Mode */
+    --background: 40 30% 97%;
+    --foreground: 30 10% 15%;
+    --card: 40 25% 98%;
+    --card-foreground: 30 10% 15%;
+    --popover: 40 25% 98%;
+    --popover-foreground: 30 10% 15%;
+    --primary: 30 30% 25%;
+    --primary-foreground: 40 30% 97%;
+    --secondary: 35 25% 90%;
+    --secondary-foreground: 30 10% 15%;
+    --muted: 35 20% 92%;
+    --muted-foreground: 30 8% 45%;
+    --accent: 25 45% 45%;
+    --accent-foreground: 40 30% 97%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 35 20% 85%;
+    --input: 35 20% 88%;
+    --ring: 25 45% 45%;
+    --radius: 0.5rem;
+    
+    /* Custom brand colors */
+    --wood-dark: 25 40% 25%;
+    --wood-medium: 30 35% 40%;
+    --wood-light: 35 30% 60%;
+    --beige: 40 30% 92%;
+    --cream: 40 35% 97%;
+    --gold: 42 70% 50%;
+    
+    --sidebar-background: 40 25% 98%;
+    --sidebar-foreground: 30 10% 15%;
+    --sidebar-primary: 30 30% 25%;
+    --sidebar-primary-foreground: 40 30% 97%;
+    --sidebar-accent: 35 25% 90%;
+    --sidebar-accent-foreground: 30 10% 15%;
+    --sidebar-border: 35 20% 85%;
+    --sidebar-ring: 25 45% 45%;
+  }
+
+  .dark {
+    /* Merakchi Meuble Brand Colors - Dark Mode */
+    --background: 30 15% 10%;
+    --foreground: 40 20% 92%;
+    --card: 30 12% 12%;
+    --card-foreground: 40 20% 92%;
+    --popover: 30 12% 12%;
+    --popover-foreground: 40 20% 92%;
+    --primary: 35 30% 75%;
+    --primary-foreground: 30 15% 10%;
+    --secondary: 30 10% 18%;
+    --secondary-foreground: 40 20% 92%;
+    --muted: 30 10% 18%;
+    --muted-foreground: 35 15% 60%;
+    --accent: 25 45% 50%;
+    --accent-foreground: 40 30% 97%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 10% 20%;
+    --input: 30 10% 20%;
+    --ring: 25 45% 50%;
+    
+    --sidebar-background: 30 12% 12%;
+    --sidebar-foreground: 40 20% 92%;
+    --sidebar-primary: 35 30% 75%;
+    --sidebar-primary-foreground: 30 15% 10%;
+    --sidebar-accent: 30 10% 18%;
+    --sidebar-accent-foreground: 40 20% 92%;
+    --sidebar-border: 30 10% 20%;
+    --sidebar-ring: 25 45% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Noto Sans Arabic', serif;
+    @apply font-semibold tracking-tight;
+  }
+  
+  /* RTL Support */
+  [dir="rtl"] {
+    font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+  }
+  
+  [dir="rtl"] h1,
+  [dir="rtl"] h2,
+  [dir="rtl"] h3,
+  [dir="rtl"] h4,
+  [dir="rtl"] h5,
+  [dir="rtl"] h6 {
+    font-family: 'Noto Sans Arabic', 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[hsl(var(--wood-dark))] text-white px-6 py-3 rounded-lg font-medium 
+           transition-all duration-300 hover:bg-[hsl(var(--wood-medium))] 
+           hover:shadow-lg hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-[hsl(var(--beige))] text-[hsl(var(--wood-dark))] px-6 py-3 rounded-lg font-medium 
+           transition-all duration-300 hover:bg-[hsl(var(--wood-light))] hover:text-white
+           border border-[hsl(var(--wood-light))];
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-24;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-[hsl(var(--wood-dark))] to-[hsl(var(--wood-medium))] 
+           bg-clip-text text-transparent;
+  }
+  
+  .wood-border {
+    @apply border-2 border-[hsl(var(--wood-light))];
+  }
+  
+  .beige-bg {
+    @apply bg-[hsl(var(--beige))];
+  }
+  
+  .cream-bg {
+    @apply bg-[hsl(var(--cream))];
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideUp {
+    from { 
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--beige));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--wood-light));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--wood-medium));
+}
+
+/* Selection color */
+::selection {
+  background: hsl(var(--wood-light) / 0.3);
+  color: hsl(var(--wood-dark));
+}

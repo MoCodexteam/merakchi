@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Merakchi Meuble",
+    "subtitle": "Premium Furniture & Home Decoration",
+    "description": "Discover our exquisite collection of modern furniture crafted with elegance and precision. Transform your home into a masterpiece.",
+    "cta": "Explore Collection",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "featured": "Featured Products",
+    "featuredDesc": "Handpicked selections from our premium collection",
+    "testimonials": "What Our Customers Say",
+    "about": "About Merakchi Meuble",
+    "aboutDesc": "Located in Ain Beida, Oum El Bouaghi, we bring you the finest furniture with exceptional craftsmanship and modern design.",
+    "promotions": "Special Offers",
+    "viewAll": "View All Products",
+    "categories": "Our Categories"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Discover our premium furniture collection",
+    "filter": "Filter by Category",
+    "all": "All",
+    "livingRoom": "Living Room",
+    "bedroom": "Bedroom",
+    "tables": "Tables",
+    "chairs": "Chairs",
+    "decoration": "Decoration",
+    "price": "Price",
+    "currency": "DZD",
+    "contact": "Contact for Order",
+    "details": "View Details",
+    "noProducts": "No products found in this category"
+  },
+  "productDetail": {
+    "description": "Description",
+    "specifications": "Specifications",
+    "reviews": "Customer Reviews",
+    "contactSeller": "Contact Seller",
+    "whatsapp": "WhatsApp",
+    "related": "Related Products"
+  },
+  "about": {
+    "title": "About Merakchi Meuble",
+    "story": "Our Story",
+    "philosophy": "Our Philosophy",
+    "location": "Our Location",
+    "quality": "Quality Craftsmanship",
+    "qualityDesc": "Every piece is crafted with attention to detail and premium materials",
+    "design": "Modern Design",
+    "designDesc": "Contemporary aesthetics that elevate your living spaces",
+    "service": "Exceptional Service",
+    "serviceDesc": "Dedicated support from selection to delivery"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for inquiries and orders",
+    "form": {
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "address": "Address",
+      "hours": "Working Hours"
+    },
+    "location": "Our Location in Ain Beida"
+  },
+  "footer": {
+    "description": "Premium furniture store in Ain Beida, Oum El Bouaghi, Algeria. Quality craftsmanship meets modern design.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Info",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "developer": "Website designed and developed by MoCodex"
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Login",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "error": "Invalid credentials"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "welcome": "Welcome to Admin Dashboard",
+      "stats": {
+        "products": "Total Products",
+        "reviews": "Total Reviews",
+        "messages": "Total Messages",
+        "featured": "Featured Products"
+      }
+    },
+    "products": {
+      "title": "Products",
+      "add": "Add Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product",
+      "name": "Name",
+      "price": "Price",
+      "category": "Category",
+      "featured": "Featured",
+      "images": "Images",
+      "save": "Save Product",
+      "cancel": "Cancel"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "add": "Add Review",
+      "approve": "Approve",
+      "delete": "Delete",
+      "pending": "Pending Approval"
+    },
+    "messages": {
+      "title": "Messages",
+      "markRead": "Mark as Read",
+      "delete": "Delete",
+      "noMessages": "No messages yet"
+    },
+    "media": {
+      "title": "Media Library",
+      "upload": "Upload Image",
+      "delete": "Delete"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}

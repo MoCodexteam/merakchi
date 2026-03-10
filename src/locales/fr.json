@@ -1,0 +1,154 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À Propos",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Merakchi Meuble",
+    "subtitle": "Meubles Premium & Décoration",
+    "description": "Découvrez notre collection exquise de meubles modernes conçus avec élégance et précision. Transformez votre maison en chef-d'œuvre.",
+    "cta": "Explorer la Collection",
+    "contact": "Contactez-Nous"
+  },
+  "home": {
+    "featured": "Produits en Vedette",
+    "featuredDesc": "Sélections choisies de notre collection premium",
+    "testimonials": "Ce Que Disent Nos Clients",
+    "about": "À Propos de Merakchi Meuble",
+    "aboutDesc": "Situé à Ain Beida, Oum El Bouaghi, nous vous proposons les plus beaux meubles avec un artisanat exceptionnel et un design moderne.",
+    "promotions": "Offres Spéciales",
+    "viewAll": "Voir Tous les Produits",
+    "categories": "Nos Catégories"
+  },
+  "products": {
+    "title": "Nos Produits",
+    "subtitle": "Découvrez notre collection de meubles premium",
+    "filter": "Filtrer par Catégorie",
+    "all": "Tous",
+    "livingRoom": "Salon",
+    "bedroom": "Chambre",
+    "tables": "Tables",
+    "chairs": "Chaises",
+    "decoration": "Décoration",
+    "price": "Prix",
+    "currency": "DZD",
+    "contact": "Contacter pour Commander",
+    "details": "Voir Détails",
+    "noProducts": "Aucun produit trouvé dans cette catégorie"
+  },
+  "productDetail": {
+    "description": "Description",
+    "specifications": "Spécifications",
+    "reviews": "Avis Clients",
+    "contactSeller": "Contacter le Vendeur",
+    "whatsapp": "WhatsApp",
+    "related": "Produits Similaires"
+  },
+  "about": {
+    "title": "À Propos de Merakchi Meuble",
+    "story": "Notre Histoire",
+    "philosophy": "Notre Philosophie",
+    "location": "Notre Emplacement",
+    "quality": "Artisanat de Qualité",
+    "qualityDesc": "Chaque pièce est fabriquée avec attention aux détails et des matériaux premium",
+    "design": "Design Moderne",
+    "designDesc": "Esthétique contemporaine qui sublime vos espaces de vie",
+    "service": "Service Exceptionnel",
+    "serviceDesc": "Support dédié de la sélection à la livraison"
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "subtitle": "Contactez-nous pour vos demandes et commandes",
+    "form": {
+      "name": "Votre Nom",
+      "phone": "Numéro de Téléphone",
+      "message": "Votre Message",
+      "submit": "Envoyer le Message",
+      "success": "Message envoyé avec succès !",
+      "error": "Échec de l'envoi. Veuillez réessayer."
+    },
+    "info": {
+      "phone": "Téléphone",
+      "whatsapp": "WhatsApp",
+      "address": "Adresse",
+      "hours": "Heures d'Ouverture"
+    },
+    "location": "Notre Emplacement à Ain Beida"
+  },
+  "footer": {
+    "description": "Magasin de meubles premium à Ain Beida, Oum El Bouaghi, Algérie. Artisanat de qualité rencontre design moderne.",
+    "quickLinks": "Liens Rapides",
+    "contact": "Infos de Contact",
+    "followUs": "Suivez-Nous",
+    "rights": "Tous droits réservés",
+    "developer": "Site conçu et développé par MoCodex"
+  },
+  "admin": {
+    "login": {
+      "title": "Connexion Admin",
+      "email": "Email",
+      "password": "Mot de passe",
+      "submit": "Connexion",
+      "error": "Identifiants invalides"
+    },
+    "dashboard": {
+      "title": "Tableau de Bord",
+      "welcome": "Bienvenue dans le Tableau de Bord",
+      "stats": {
+        "products": "Total Produits",
+        "reviews": "Total Avis",
+        "messages": "Total Messages",
+        "featured": "Produits en Vedette"
+      }
+    },
+    "products": {
+      "title": "Produits",
+      "add": "Ajouter Produit",
+      "edit": "Modifier Produit",
+      "delete": "Supprimer Produit",
+      "name": "Nom",
+      "price": "Prix",
+      "category": "Catégorie",
+      "featured": "En Vedette",
+      "images": "Images",
+      "save": "Enregistrer",
+      "cancel": "Annuler"
+    },
+    "reviews": {
+      "title": "Avis",
+      "add": "Ajouter Avis",
+      "approve": "Approuver",
+      "delete": "Supprimer",
+      "pending": "En Attente"
+    },
+    "messages": {
+      "title": "Messages",
+      "markRead": "Marquer comme Lu",
+      "delete": "Supprimer",
+      "noMessages": "Aucun message"
+    },
+    "media": {
+      "title": "Bibliothèque Média",
+      "upload": "Télécharger Image",
+      "delete": "Supprimer"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "search": "Rechercher",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent"
+  }
+}
